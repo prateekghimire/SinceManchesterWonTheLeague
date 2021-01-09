@@ -1,0 +1,32 @@
+<!doctype html>
+<title>Since Manchester United won the league</title>
+<link rel="icon" href="{{url_for('static',filename='img/favicon.ico')}}" sizes="16*16">
+<script type="text/javascript"
+  src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="{{url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='vendor/venobox/venobox.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='vendor/aos/aos.css')}}" rel="stylesheet">
+
+  <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet">
+<script type="text/javascript">
+  var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+</script>
+
+ <script src="{{url_for('static',filename='vendor/jquery/jquery.min.js')}}"></script>
+ <script src="{{url_for('static',filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+ <script src="{{url_for('static',filename='vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+ <script src="{{url_for('static',filename='vendor/php-email-form/validate.js')}}"></script>
+ <script src="{{url_for('static',filename='vendor/jquery-sticky/jquery.sticky.js')}}"></script>
+ <script src="{{url_for('static',filename='vendor/venobox/venobox.min.js')}}"></script>
+ <script src="{{url_for('static',filename='vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+ <script src="{{url_for('static',filename='vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+ <script src="{{url_for('static',filename='vendor/aos/aos.js')}}"></script>
+
+ <script src="{{url_for('static',filename='js/main.js')}}"></script>
+{% block body %}{% endblock %}
